@@ -51,24 +51,24 @@ export default function HomePage() {
           <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24 animate-in fade-in zoom-in-95 duration-1000 delay-500">
             <div className="p-8 bg-slate-50 rounded-3xl border border-slate-100 group hover:border-indigo-100 transition-all">
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6 group-hover:scale-110 transition-transform">
-                <Terminal className="w-6 h-6 text-indigo-600" />
+                <BookOpen className="w-6 h-6 text-indigo-600" />
               </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-3">Live Simulation</h3>
-              <p className="text-sm text-slate-500 leading-relaxed">Write VHDL code and see it run instantly. No heavy local toolsets required for initial learning.</p>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">1. Learn</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">Simple, jargon-free lessons that break down complex VHDL concepts into easy-to-digest pieces.</p>
             </div>
             <div className="p-8 bg-slate-50 rounded-3xl border border-slate-100 group hover:border-emerald-100 transition-all">
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6 group-hover:scale-110 transition-transform">
-                <Target className="w-6 h-6 text-emerald-600" />
+                <HelpCircle className="w-6 h-6 text-emerald-600" />
               </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-3">Progress Tracking</h3>
-              <p className="text-sm text-slate-500 leading-relaxed">Save your progress automatically as you go. Come back anytime to continue where you left off.</p>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">2. Check</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">Interactive multiple-choice questions to reinforce what you've learned before writing any code.</p>
             </div>
             <div className="p-8 bg-slate-50 rounded-3xl border border-slate-100 group hover:border-amber-100 transition-all">
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6 group-hover:scale-110 transition-transform">
-                <Zap className="w-6 h-6 text-amber-600" />
+                <Code2 className="w-6 h-6 text-amber-600" />
               </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-3">Instant Feedback</h3>
-              <p className="text-sm text-slate-500 leading-relaxed">Get immediate results on your implementation, just like the real synthesis tools but faster.</p>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">3. Practice</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">Write actual VHDL code in our built-in IDE with real-time feedback and progress tracking.</p>
             </div>
           </section>
 
