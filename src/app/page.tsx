@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Sidebar } from '@/components/Sidebar';
 import { exercises } from '@/data/exercises';
 import { useProgress } from '@/hooks/useProgress';
-import { CheckCircle, Circle, BookOpen, Rocket, Terminal, Code2, ArrowRight, Zap, Target, BookOpenCheck } from 'lucide-react';
+import { CheckCircle, Circle, BookOpen, Rocket, Terminal, Code2, ArrowRight, Zap, Target, BookOpenCheck, HelpCircle } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
