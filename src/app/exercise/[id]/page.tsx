@@ -9,7 +9,7 @@ import { QuizView } from '@/components/QuizView';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useProgress } from '@/hooks/useProgress';
-import { ChevronLeft, ChevronRight, CheckCircle2, Trophy, Clock, BookOpen, HelpCircle, Code2, Sparkles, Sword, Shield, Zap } from 'lucide-react';
+import { ChevronLeft, ChevronRight, CheckCircle2, Trophy, Clock, BookOpen, HelpCircle, Code2, Sparkles, Sword, Shield, Zap, Crown } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { clsx, type ClassValue } from 'clsx';
