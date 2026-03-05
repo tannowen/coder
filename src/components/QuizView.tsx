@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { HelpCircle, CheckCircle, XCircle, ArrowRight, RefreshCcw, ShieldCheck, Sword, Sparkles, Brain } from 'lucide-react';
+import { HelpCircle, CheckCircle, XCircle, ArrowRight, RefreshCcw, ShieldCheck, Sword, Sparkles, Brain, Trophy } from 'lucide-react';
 import { MCQ } from '@/data/exercises';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
