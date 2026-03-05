@@ -3,7 +3,8 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { BookOpen, ArrowRight } from 'lucide-react';
+import { BookOpen, ArrowRight, Sword, Shield } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 interface LessonViewProps {
   content: string;

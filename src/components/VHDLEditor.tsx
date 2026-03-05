@@ -2,9 +2,16 @@
 
 import React, { useState, useEffect } from 'react';
 import Editor from '@monaco-editor/react';
-import { Play, CheckCircle, RefreshCcw } from 'lucide-react';
+import { Play, CheckCircle, RefreshCcw, Trophy } from 'lucide-react';
 import { useProgress } from '@/hooks/useProgress';
 import { useRouter } from 'next/navigation';
+import { motion } from 'framer-motion';
+import { clsx, type ClassValue } from 'clsx';
+import { twMerge } from 'tailwind-merge';
+
+function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
 
 interface VHDLEditorProps {
   exerciseId: string;
